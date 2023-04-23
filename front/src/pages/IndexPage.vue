@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <canvas ref="canvas"/>
+    <canvas class="the-element" ref="canvas"/>
   </q-page>
 </template>
 
@@ -15,7 +15,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-canvas {
+.the-element {
+  width: 100%;
   min-height: inherit;
   background-color: black;
 }
